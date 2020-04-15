@@ -17,7 +17,6 @@ def home(request):
     return render(request, 'notice/index.html', tmpl_vars)
 
 
-
 @api_view(['GET'])
 def notice_collection(request):
     if request.method == 'GET':
